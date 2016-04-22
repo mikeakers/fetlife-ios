@@ -73,9 +73,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UITableView.appearanceWhenContainedInInstancesOfClasses([ConversationsViewController.self]).separatorColor = UIColor.borderColor()
         UITableView.appearanceWhenContainedInInstancesOfClasses([MessagesTableViewController.self]).separatorColor = UIColor.backgroundColor()
         UITableViewCell.appearance().backgroundColor = UIColor.backgroundColor()
-        
-        JSQMessagesCellTextView.appearance().backgroundColor = UIColor.blackColor()
-        JSQMessagesCellTextView.appearance().tintColor = UIColor.whiteColor()
     }
     
     

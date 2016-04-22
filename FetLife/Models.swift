@@ -106,7 +106,7 @@ class Message: Object, JSQMessageData {
     }
     
     func messageHash() -> UInt {
-        return UInt.init(id) ?? 0
+        return UInt(abs(id.hash)) ^ UInt(createdAt.timeIntervalSince1970)
     }
     
     func text() -> String! {
