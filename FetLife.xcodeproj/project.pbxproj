@@ -347,11 +347,6 @@
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "BitLove Inc.";
-				TargetAttributes = {
-					828D66281CC1DD3200A6F1D2 = {
-						DevelopmentTeam = N9932PXK4V;
-					};
-				};
 			};
 			buildConfigurationList = 82B55AB51C60FB060035D45E /* Build configuration list for PBXProject "FetLife" */;
 			compatibilityVersion = "Xcode 3.2";
